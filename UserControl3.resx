@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Вреди върху околната среда, причинени от шофирането:
+
+Със сигурност ви е писнало да слушате за вредните емисии, които изхвърлят автомобилите и за мръсния въздух, причинен от тях. Въпреки това обаче, големите градове буквално се задушават от изгорели газове, особено в пиковите часове на натоварен трафик. Ако можете, карайте електрически или хибриден автомобил или пък използвайте безоловен бензин.
+Автомобил
+
+Поддържайте автомобила си в добро състояние, за да избегнете вредните емисии. Така, разбира се, плащате и по-малко за повреди навреме, отколкото по-късно, когато ремонтите са сериозни и скъпи.
+Споделено пътуване
+
+Споделете автомобила си с колеги или приятели, когато пътувате в една и съща посока или работите на едно и също място. Така хем ще си имате компания, хем ще спестите пари от горивото. Ако обичате да карате колело, използвайте го, за да се придвижвате до работа, когато времето и местоположението на работното място позволяват.
+
+Никога не горете на открито място отпадъци, особено химикали и пластмаси!
+Това се оказа особено голям проблем за София в някои зимни дни, защото една част от хората използват дрехи или отпадъци като средство за отопление. Освен чисто неприятната миризма, изхвърляните вредни вещества в атмосферата са стотици.
+Рециклирайте!
+Използвайте различни начини за рециклиране на стари вещи. Вместо да оставяте в боклука старите си електроуреди, потърсете фирма, която се занимава с рециклирането им. При производството на електроуреди се използват над 1000 различни материала. Ако не се рециклират, те започват да изтичат в околната среда и замърсяват природата.
+
+Използвайте възобновяеми енергийни източници, за да ограничавате замърсяването на природата
+Инвестирайте в поставянето на слънчеви панели за топла вода. Оставяйте прането си да изсъхне на слънце, за да сведете до минимум използването на електричество от употребата на сушилня.
+Използвайте природните ресурси
+Огледайте се около къщата си и вижте няма ли как да си природите резервоар за съхранение на дъждовна вода, така че да имате алтернативен източник за поливане на цветните лехи например.
+
+Засадете повече дървета. Ако имате възможност, поставете повече дръвчета в двора или пред блока. Те почистват въздуха, осигуряват кислород и разкрасяват околната среда. Отглеждайте пчели без тях съществуването ни не би било същото.
+
+Ако притежавате бизнес, се уверете, че сте взели предвид въздействието на вашите бизнес практики върху околната среда.
+
+Създавайте си полезни практики – изхвърляйте отпадъците разделно, не си хвърляйте фасовете през прозореца на автомобила. Вместо да купувате всеки път найлонови торбички от магазина, купете си здрава и удобна текстилна такава. Много супермаркети предлагат торбички за пазар за многократна употреба, които са брандирани с логото на съответната верига. Сметнете, че ако една такава торба струва 3 лв., а една найлонова торбичка 10 стотинки, първата ще бъде дългосрочна инвестиция, докато втората ще отиде в коша почти веднага. Текстилните торби може да се ползват с години, което в дългосрочен план ще ви спести пари. Ако имате възможност, използвайте градски транспорт вместо автомобил. Намаляването на трафика е ключов момент за предотвратяването на замърсяването на природата.
+Замърсяването на природата може да се избегне, само ако всички действат заедно!
+Грижете се за околната среда!
+
+</value>
+  </data>
+</root>
